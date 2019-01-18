@@ -22,4 +22,7 @@ I prefer to use it with [keepassXc](https://github.com/keepassxreboot/keepassxc)
 - when the password is needed the terminal may be opened, __tmux__ session called by ```tmux a -t chp``` (or better with a defined short bash alias)
 - after hitting __keepassXc__ global auto-fill key sequence the password is filled after the prompt
 - then chars may be picked as in usual method
-It is much more faster and convenient!
+It is much more faster and convenient, but script has to be called again every time the session is invoked (but at least its parent directory is persisted by __tmux__)
+
+## TODO
+- maybe add other char numbers separators
