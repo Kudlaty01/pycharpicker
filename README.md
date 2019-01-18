@@ -1,5 +1,5 @@
 # pycharpicker
-Password char picker for filling so called 'masked' passwords written in python and based on xdotool
+Password char picker for filling so called 'masked' passwords written in python and based on __xdotool__
 
 ## Idea
 Some banks allow only char-picked password authorization (by picking specific chars from the password). Not all password managers allow such input, so I have decided to create a simple middleware. Originally it was split into three scr
