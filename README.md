@@ -2,7 +2,7 @@
 Password char picker for filling so called 'masked' passwords written in python and based on __xdotool__
 
 ## Idea
-Some banks allow only char-picked password authorization (by picking specific chars from the password). Not all password managers allow such input, so I have decided to create a simple middleware. Originally it was split into three scr
+Some banks allow only char-picked password authorization (by picking specific chars from the password). Not all password managers allow such input, so I have decided to create a simple middleware. Originally it was split into three scripts, but I have decided to stay in python
 
 ## Requirements
 - Python v3
@@ -23,6 +23,9 @@ I prefer to use it with [KeePassXC](https://github.com/keepassxreboot/keepassxc)
 - after hitting __KeePassXC__ global auto-fill key sequence the password is filled after the prompt
 - then chars may be picked as in usual method
 It is much more faster and convenient, but script has to be called again every time the session is invoked (but at least its parent directory is persisted by __tmux__)
+
+## Troubleshooting
+If the picked password chars are filled in wrong place then try focusing the first password field again after spawning the terminal and then going back to terminal window
 
 ## TODO
 - maybe add other char numbers separators
