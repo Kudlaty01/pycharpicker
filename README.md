@@ -12,7 +12,7 @@ Some banks allow only char-picked password authorization (by picking specific ch
 - fill login and proceed to masked password screen withing and leave the focus on the first password char field
 - start up a terminal emulator window and run the script inside
 - fill in the whole password and hit ENTER
-- pick char numbers (space separated) and hit ENTER
+- pick char numbers (separated) and hit ENTER
 - that's it! you're logged in!
 
 ## Tips
