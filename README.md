@@ -26,6 +26,3 @@ It is much more faster and convenient, but script has to be called again every t
 
 ## Troubleshooting
 If the picked password chars are filled in wrong place then try focusing the first password field again after spawning the terminal and then going back to terminal window
-
-## TODO
-- maybe add other char numbers separators
